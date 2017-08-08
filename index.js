@@ -33,7 +33,7 @@ export default class Carousel extends Component {
     pageInfoBottomContainerStyle: View.propTypes.style,
     pageInfoTextSeparator: PropTypes.string,
     bullets: PropTypes.bool,
-    bulletsStyle: style,
+    bulletsStyle: Text.propTypes.style,
     bulletsContainerStyle: Text.propTypes.style,
     bulletStyle: Text.propTypes.style,
     arrows: PropTypes.bool,
